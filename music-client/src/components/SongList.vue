@@ -75,6 +75,7 @@ export default defineComponent({
     });
 
     function handleClick(row) {
+      console.log("row", row)
       playMusic({
         id: row.id,
         url: row.url,

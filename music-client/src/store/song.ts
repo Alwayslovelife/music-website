@@ -106,6 +106,7 @@ export default {
       commit("setSingerName", singerName);
       commit("setLyric", lyric);
       commit("setCurrentPlayList", currentSongList);
+      commit("setIsPlay", false);
     },
   },
 };
